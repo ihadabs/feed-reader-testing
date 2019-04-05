@@ -99,7 +99,7 @@ $(
       });
 
       it("is there at least a single .entry element within the .feed container.", function() {
-        expect($(".entry").length).not.toBe(0);
+        expect($(".feed .entry").length).not.toBe(0);
       });
     });
 
